@@ -1,0 +1,16 @@
+help
+info
+add {"product":{"name":"Asus Laptop", "coordinates":{"x":100, "y":200}, "price":1500, "partNumber":"SN-001", "manufactureCost":500, "unitOfMeasure":"PCS", "manufacturer":{"name":"Asus", "fullName":"Asus Global", "employeesCount":500, "type":"COMMERCIAL"}}}
+add {"product":{"name":"Apple iPhone", "coordinates":{"x":50, "y":50}, "price":1000, "partNumber":"SN-002", "manufactureCost":300, "unitOfMeasure":"PCS", "manufacturer":{"name":"Apple", "fullName":"Apple Inc", "employeesCount":5000, "type":"OPEN_JOINT_STOCK_COMPANY"}}}
+show
+add_if_min {"product":{"name":"AAA Cheapest Item", "coordinates":{"x":1, "y":1}, "price":10, "partNumber":"SN-000", "manufactureCost":1, "unitOfMeasure":"PCS", "manufacturer":{"name":"BudgetCo", "fullName":"Budget Company", "employeesCount":1, "type":"PRIVATE_LIMITED_COMPANY"}}}
+update {"product":{"id":1, "name":"Updated Asus", "coordinates":{"x":101, "y":201}, "price":1600, "partNumber":"SN-001", "manufactureCost":550, "unitOfMeasure":"PCS", "manufacturer":{"id":1, "name":"Asus", "fullName":"Asus Global Updated", "employeesCount":550, "type":"COMMERCIAL"}}}
+count_greater_than_unit_of_measure MILLIGRAMS
+filter_less_than_manufacturer {"name":"Z-Corp", "fullName":"Z-Corp LLC", "employeesCount":10000, "type":"TRUST"}
+remove_all_by_part_number SN-002
+remove_greater {"product":{"name":"Z-Last Item", "coordinates":{"x":0, "y":0}, "price":1, "partNumber":"REF1", "unitOfMeasure":"PCS", "manufacturer":{"name":"X"}}}
+remove_lower {"product":{"name":"0-First Item", "coordinates":{"x":0, "y":0}, "price":1, "partNumber":"REF2", "unitOfMeasure":"PCS", "manufacturer":{"name":"X"}}}
+save
+clear
+show
+info

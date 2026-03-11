@@ -1,0 +1,39 @@
+[ {
+  "id" : 3,
+  "name" : "AAA Cheapest Item",
+  "coordinates" : {
+    "x" : 1.0,
+    "y" : 1.0
+  },
+  "creationDate" : 1773213766072,
+  "price" : 10.0,
+  "partNumber" : "SN-000",
+  "manufactureCost" : 1,
+  "unitOfMeasure" : "PCS",
+  "manufacturer" : {
+    "id" : 3,
+    "name" : "BudgetCo",
+    "fullName" : "Budget Company",
+    "employeesCount" : 1,
+    "type" : "PRIVATE_LIMITED_COMPANY"
+  }
+}, {
+  "id" : 1,
+  "name" : "Updated Asus",
+  "coordinates" : {
+    "x" : 101.0,
+    "y" : 201.0
+  },
+  "creationDate" : 1773213766056,
+  "price" : 1600.0,
+  "partNumber" : "SN-001",
+  "manufactureCost" : 550,
+  "unitOfMeasure" : "PCS",
+  "manufacturer" : {
+    "id" : 1,
+    "name" : "Asus",
+    "fullName" : "Asus Global",
+    "employeesCount" : 500,
+    "type" : "COMMERCIAL"
+  }
+} ]
